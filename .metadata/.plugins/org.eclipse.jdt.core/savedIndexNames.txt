@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\repos\max\java\console apps\Temperature Converter Java\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3068203743.index
+3661727006.index

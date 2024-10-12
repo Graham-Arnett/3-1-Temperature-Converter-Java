@@ -1,0 +1,19 @@
+package temcon;
+import java.util.Scanner;
+public class TempConv {
+
+	public static void main(String[] args) {
+		System.out.println("Hello, welcome to the Temperature Converter!");
+		String choice;
+		Scanner scanner = new Scanner(System.in);
+		do {
+		System.out.print("Enter degrees in Fahrenheit: ");
+		int fahrenheit = scanner.nextInt();
+		int celsius = fahrenheit - 32;
+		System.out.println("Degrees in Celsius: " + celsius);
+		System.out.println("Would you like to go again? (y/n): ");
+		choice = scanner.next();
+		}while(choice.equalsIgnoreCase("y"));
+	}
+
+}
